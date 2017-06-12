@@ -29,5 +29,5 @@ proc reg data = fitness;
 	model oxygen = age weight runtime rstpulse runpulse maxpulse
 	 / selection = backward cp slstay=0.15;
 	/* / selection = stepwise adjrsq;*/
-	/* / selection = adjrsq
+	/* / selection = adjrsq */
 run;
